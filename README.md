@@ -21,7 +21,7 @@
   <a href="https://instagram.com/codeabierto" target="_blank">
     <img src="assets/images/instagram.svg" width="50">
   </a>
-  <a href="https://www.facebook.com/codeabierto/" target="_blank">
+  <a href="https://www.facebook.com/codeabierto" target="_blank">
     <img src="assets/images/facebook.svg" width="50">
   </a>
   <a href="https://youtube.com/@codeabierto" target="_blank">
@@ -69,10 +69,27 @@ Todo el contenido publicado es modificable, si tu quieres colaborar, ves errores
 
 # Tabla de contenido
 - [Introduccion](#Introduccion)
-    - [Instalacin](#Instalacion)
+    - [Variable](#Variable)
     
 # <a name="Introduccion">Introduccion</a>
-## <a name="Instalacion">Instalacion</a>
+## <a name="Variable">Variable</a>
 
-```sh
+En programación, una variable es un espacio de memoria reservado en la computadora para almacenar un valor. Las variables se utilizan para guardar datos que pueden cambiar durante la ejecución del programa.
+
+| Componentes de una Variable | Descripcion |
+| ------ | ------ |
+| Identificador | El nombre que se le da a la variable. |
+| Tipo de Dato | El tipo de valor que puede almacenar (como números, cadenas de texto, valores booleanos, etc.). |
+
+### Declarando una Variable
+
+Para declarar una variable en JavaScript, utilizamos la palabra clave let.
+
+```js
+
+// Sintaxis
+let Identificador;
+// Ejemplo
+let saludo;
+
 ```
